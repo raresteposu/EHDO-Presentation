@@ -1,0 +1,177 @@
+{
+    "Demands": {
+        "sum": {
+            "heat": 63193,
+            "cool": 723,
+            "power": 18673,
+            "hydrogen": 0
+        },
+        "peak": {
+            "heat": 35,
+            "cool": 7,
+            "power": 24,
+            "hydrogen": 0
+        },
+        "monthly": {
+            "heat": {
+                "January": 10907,
+                "February": 9137,
+                "March": 8381,
+                "April": 5816,
+                "May": 629,
+                "June": 588,
+                "July": 563,
+                "August": 589,
+                "September": 561,
+                "October": 6574,
+                "November": 8727,
+                "December": 10714
+            },
+            "cool": {
+                "January": 0,
+                "February": 0,
+                "March": 0,
+                "April": 0,
+                "May": 14,
+                "June": 121,
+                "July": 313,
+                "August": 250,
+                "September": 24,
+                "October": 0,
+                "November": 0,
+                "December": 0
+            },
+            "power": {
+                "January": 1638,
+                "February": 1530,
+                "March": 1589,
+                "April": 1565,
+                "May": 1549,
+                "June": 1384,
+                "July": 1592,
+                "August": 1539,
+                "September": 1499,
+                "October": 1605,
+                "November": 1517,
+                "December": 1660
+            },
+            "hydrogen": {
+                "January": 0,
+                "February": 0,
+                "March": 0,
+                "April": 0,
+                "May": 0,
+                "June": 0,
+                "July": 0,
+                "August": 0,
+                "September": 0,
+                "October": 0,
+                "November": 0,
+                "December": 0
+            }
+        }
+    },
+    "Devices": {
+        "PV": {
+            "Capacity": 6,
+            "Costs": {
+                "Total": 834,
+                "Investment": 806,
+                "Operation and Maintenance": 28,
+                "Demand related": 0
+            },
+            "Curtailed": -1,
+            "Generated": 6166,
+            "Full load hours": 942,
+            "Area": 36
+        },
+        "HP": {
+            "Capacity": 16,
+            "Costs": {
+                "Total": 2177,
+                "Investment": 2052,
+                "Operation and Maintenance": 43,
+                "Demand related": 80
+            },
+            "Generated": {
+                "heat": 63610,
+                "cool": 723
+            },
+            "Full load hours": 4035,
+            "Mean COP": 4.31
+        },
+        "TES": {
+            "Capacity": 10,
+            "Costs": {
+                "Total": 204,
+                "Investment": 202,
+                "Operation and Maintenance": 2,
+                "Demand related": 0
+            },
+            "Generated": 0,
+            "Full load hours": 0,
+            "Charge cycles": 559,
+            "Volume": 0.2
+        }
+    },
+    "CO2 Emissions": {
+        "Total emissions": 0,
+        "Onsite": 0,
+        "Feed-in Credit": 0,
+        "Generated due to electricity import": 0,
+        "Won due to electricity export": 0,
+        "Generated due to gas import": 0,
+        "Won due to gas export": 0,
+        "Generated due to heat import": 0,
+        "Generated due to biom import": 0,
+        "Generated due to waste import": 0,
+        "Generated due to hydrogen import": 0
+    },
+    "Total Costs": {
+        "Total annualized costs": 14766,
+        "Total device costs": {
+            "Total investment costs": 4112,
+            "Total O&M costs": 1157,
+            "Total demand related costs": 82
+        },
+        "CO2 Tax": 0,
+        "Supply costs": {
+            "Total Costs": 9413,
+            "Electricity": {
+                "Supply costs": 9413,
+                "Cap costs": 0,
+                "Feed-in revenues": 0
+            },
+            "Gas": {
+                "Supply costs": 0,
+                "Cap costs": 0,
+                "Feed-in revenues": 0
+            },
+            "Heat": {
+                "Supply costs": 0,
+                "Cap costs": 0,
+                "Feed-in revenues": 0
+            },
+            "Biomass": 0,
+            "Waste": 0,
+            "Hydrogen": 0
+        }
+    },
+    "Grid Flows": {
+        "Total electricity import": 29234,
+        "Total electricity export": 1884,
+        "Total gas import": 0,
+        "Total gas export": 0,
+        "Total heat import": 0,
+        "Total heat export": 0,
+        "Total biomass import": 0,
+        "Total waste import": 0,
+        "Total hydrogen import": 0,
+        "Maximum electricity import": 9.63,
+        "Maximum electricity export": 4.54,
+        "Maximum gas import": 0.0,
+        "Maximum gas export": 0.0,
+        "Maximum heat import": 0.0,
+        "Maximum heat export": 0.0
+    }
+}
