@@ -148,7 +148,7 @@ def plot_mittelwert(available_devices, building, devices, types, sub_types, hour
 
     types.append('/')
     sub_types.append('/')
-    df  = pd.read_csv(f'../results/hourly_values_{building}.csv')
+    df  = pd.read_csv(f'./results/hourly_values_{building}.csv')
 
     # Initialize a plot
     plt.figure(figsize=(10, 5))
